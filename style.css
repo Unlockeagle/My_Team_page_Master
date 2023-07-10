@@ -85,6 +85,24 @@ img {
     clear: both;
   }
 
+.footer_created{
+    display: flex;
+    justify-content: center;
+        color: #BDBDBD;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 0.875rem;
+}
+
+.footer_created-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    padding: 0px 5px;
+    text-decoration: underline;
+}
+
   @media screen and (max-width: 880px){
     .seccion2{
         grid-template-columns: 1fr 1fr;
